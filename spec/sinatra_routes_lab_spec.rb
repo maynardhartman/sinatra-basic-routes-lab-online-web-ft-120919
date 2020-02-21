@@ -15,7 +15,7 @@ describe "Basic Routes Lab" do
     end
   end
 
-  describe "GET '/name/hometown'" do
+  describe "GET '/hometown'" do
     before(:each) do
       get '/hometown'
     end
